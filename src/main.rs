@@ -15,3 +15,14 @@ fn test_two() {
     assert_eq!(2, 2);
 }
 
+
+
+#[test]
+fn test_three() {
+    assert_eq!(3, 3);
+}
+
+#[test]
+fn test_four() {
+    assert_eq!(4, 4);
+}
