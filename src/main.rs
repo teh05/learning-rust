@@ -22,6 +22,12 @@ fn test_three() {
     assert_eq!(3, 3);
 }
 
+
+#[test]
+fn test_five() {
+    assert_eq!(3, 3);
+}
+
 #[test]
 fn test_four() {
     assert_eq!(4, 4);
