@@ -32,3 +32,12 @@ fn test_five() {
 fn test_four() {
     assert_eq!(4, 4);
 }
+
+
+///halo halo
+
+
+#[test]
+fn test_six() {
+    assert_eq!(6, 6);
+}
