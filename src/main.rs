@@ -1,7 +1,11 @@
-fn main() {
+fn main(){
     println!("Hello, world!");
 }
 
+
 #[test]
-fn it_works() {
+
+fn main_test(){
+    println!("Hello, world!");
+    println!("Hello, world!");
 }
