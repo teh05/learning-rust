@@ -1,6 +1,6 @@
-fn main(){
-    println!("Hello, world!");
-}
+// fn main(){
+//     println!("Hello, world!");
+// }
 
 
 #[test]
@@ -46,3 +46,18 @@ fn testttt_mamad(){
 
 
 
+fn calculate_box_volume3(width: i32, height: i32, length: i32) -> i32 {
+    width * height * length
+}
+
+fn greet_custom_message(name: &str, message: &str) {
+    println!("hi {name}, {message}");
+}
+
+
+fn main() {
+    let res3 = calculate_box_volume3(width, height, length);
+    let message3 = format!("the box volume is {}", res3);
+
+    greet_custom_message("Damian", message3.as_str());
+}
